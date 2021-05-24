@@ -47,5 +47,4 @@ for page in range(1, page_max):
 
         #print(location_address,location_name,location_totaloffers,location_offerdetails,cuisines_list)
 dataFrame = pandas.DataFrame(scraped_info_list)
-dataFrame.to_csv("Dineout.csv")
 connect.get_info(args.dbname)
